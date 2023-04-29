@@ -38,5 +38,4 @@ MIT License.
 
 ## Deployed Application Link
 
-https://scelsic2.github.io/professional-portfolio/
-
+https://scelsic2.github.io/professional-portfolio/ 
