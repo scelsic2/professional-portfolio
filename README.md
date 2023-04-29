@@ -11,7 +11,7 @@ N/A
 ## Usage
 
 Use the navigation bar to navigate the page.
-![A screenshot of the navigation bar](./assets/images/screenshot1.png)
+![A screenshot of the navigation bar](./assets/images/s1.png)
 
 ## Credits
 
@@ -36,4 +36,7 @@ Use the navigation bar to navigate the page.
 
 MIT License.
 
+## Deployed Application Link
+
+https://scelsic2.github.io/professional-portfolio/
 

@@ -6,6 +6,11 @@
     margin: 0; 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Background image to cover full page: Learn About Responsive Images: CSS styling for Responsive Websites. (2019, October 1). BitDegree. Retrieved March 3, 2023, from https://www.bitdegree.org/learn/responsive-image */
 html {    
     background: url('./images/purple-370132.png') no-repeat center fixed;     
@@ -21,13 +26,15 @@ html {
 
 /* How To Center a Website. (n.d.). W3Schools. Retrieved March 6, 2023, from https://www.w3schools.com/howto/howto_css_center_website.asp */
 body {
-    max-width: 730px;
+    max-width: 80%;
     margin: auto;
 }
 
 header {
     padding: 5px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 img {
@@ -36,13 +43,14 @@ img {
 
 .logo-div {
     margin: 5px;
+    color: whitesmoke;
+    letter-spacing: .1em;
+    display: flex;
+    align-items: center;
 }
 
-.h1-div {
-    color: whitesmoke;
-/*CSS letter-spacing property. (n.d.). W3Schools. Retrieved March 2, 2023, from https://www.w3schools.com/cssref/pr_text_letter-spacing.php */
-    letter-spacing: .1em;
-    margin: 10px;
+.logo-div h1 {
+    margin-left: 10px;
 }
 
 nav {
@@ -123,34 +131,26 @@ p {
 }
 
 .other-projects-container {
-    margin:15px;
     display: flex;
     flex-direction: wrap;
+    margin: 7px;
 }
 
-.other-projects-div {
-    margin: auto;
+.photo-image-div{
+    width: 50%;
 }
 
-.other-image {
-    width: 100%;
+.tall {
+    padding: 16px;
 }
-
-.project-title-div {
-    background-color: rgb(238, 142, 48);
-    margin-top: -4px;
-    width: 100%;
-    text-align: right;
-}
-
-/* .other-project-description-div {
-    margin-top: 0;
-    margin-bottom: 20px;
-} */
 
 .contact-me {
+
+}
+
+.contact-me-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .about-ul {
@@ -160,15 +160,11 @@ p {
     background-color:  rgb(28, 187, 39);
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .about-li {
     margin-right: 50px;
-}
-
-.about-li a:visited{
-    color: blue;
 }
 
 .avatar {
