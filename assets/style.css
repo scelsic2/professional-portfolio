@@ -163,6 +163,10 @@ p {
     justify-content: space-between;
 }
 
+.about-ul a {
+    text-decoration: underline;
+}
+
 .about-li {
     margin-right: 50px;
 }
